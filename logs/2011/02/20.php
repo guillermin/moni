@@ -1,0 +1,16 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2011-02-20 19:27:05 --- ERROR: Database_Exception [ 1045 ]: Access denied for user 'apache'@'localhost' (using password: NO) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+2011-02-20 19:27:10 --- ERROR: ErrorException [ 8 ]: Undefined index:  id ~ MODPATH/orm/classes/kohana/orm.php [ 1324 ]
+2011-02-20 19:27:28 --- ERROR: ErrorException [ 8 ]: Undefined index:  roles ~ MODPATH/orm/classes/kohana/orm.php [ 1062 ]
+2011-02-20 19:33:19 --- ERROR: Database_Exception [ 1045 ]: Access denied for user 'apache'@'localhost' (using password: NO) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+2011-02-20 20:39:56 --- ERROR: ErrorException [ 4 ]: syntax error, unexpected '}' ~ APPPATH/classes/controller/movement.php [ 45 ]
+2011-02-20 20:42:20 --- ERROR: ErrorException [ 8 ]: Undefined property: Database_MySQL_Result::$id ~ APPPATH/views/html/movement/view.php [ 5 ]
+2011-02-20 20:51:08 --- ERROR: ErrorException [ 2 ]: Invalid argument supplied for foreach() ~ APPPATH/views/html/equity/view.php [ 1 ]
+2011-02-20 20:55:57 --- ERROR: Database_Exception [ 1045 ]: Access denied for user 'apache'@'localhost' (using password: NO) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+2011-02-20 20:56:17 --- ERROR: ErrorException [ 8 ]: Undefined index:  id ~ MODPATH/orm/classes/kohana/orm.php [ 1324 ]
+2011-02-20 20:56:28 --- ERROR: ErrorException [ 8 ]: Undefined index:  id ~ MODPATH/orm/classes/kohana/orm.php [ 1324 ]
+2011-02-20 20:57:47 --- ERROR: Database_Exception [ 1045 ]: Access denied for user 'apache'@'localhost' (using password: NO) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+2011-02-20 21:01:04 --- ERROR: Database_Exception [ 1045 ]: Access denied for user 'apache'@'localhost' (using password: NO) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+2011-02-20 21:25:59 --- ERROR: Kohana_View_Exception [ 0 ]: The requested view html/movement/find could not be found ~ SYSPATH/classes/kohana/view.php [ 252 ]
+2011-02-20 22:30:03 --- ERROR: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH/views/html/equity/view.php [ 3 ]

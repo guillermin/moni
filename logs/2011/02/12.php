@@ -1,0 +1,15 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2011-02-12 22:17:21 --- ERROR: ReflectionException [ -1 ]: Class controller_auth does not exist ~ SYSPATH/classes/kohana/request.php [ 1178 ]
+2011-02-12 22:39:14 --- ERROR: ReflectionException [ -1 ]: Class controller_equities does not exist ~ SYSPATH/classes/kohana/request.php [ 1178 ]
+2011-02-12 22:39:59 --- ERROR: ReflectionException [ -1 ]: Class controller_equities does not exist ~ SYSPATH/classes/kohana/request.php [ 1178 ]
+2011-02-12 22:41:36 --- ERROR: Database_Exception [ 1048 ]: Column 'movement_id' cannot be null [ INSERT INTO `incomes` (`movement_id`, `source_id`, `amount`) VALUES (NULL, '6', 100000.000000) ] ~ MODPATH/database/classes/kohana/database/mysql.php [ 179 ]
+2011-02-12 22:57:01 --- ERROR: ReflectionException [ -1 ]: Class controller_movements does not exist ~ SYSPATH/classes/kohana/request.php [ 1178 ]
+2011-02-12 23:05:07 --- ERROR: ErrorException [ 8 ]: Undefined index:  incomes ~ APPPATH/classes/controller/movement.php [ 26 ]
+2011-02-12 23:18:14 --- ERROR: ErrorException [ 8 ]: Undefined index:  incomes ~ APPPATH/classes/controller/movement.php [ 26 ]
+2011-02-12 23:20:43 --- ERROR: ErrorException [ 8 ]: Undefined index:  incomes ~ APPPATH/classes/controller/movement.php [ 27 ]
+2011-02-12 23:26:51 --- ERROR: Database_Exception [ 1045 ]: Access denied for user 'apache'@'localhost' (using password: NO) ~ MODPATH/database/classes/kohana/database/mysql.php [ 67 ]
+2011-02-12 23:27:02 --- ERROR: ErrorException [ 8 ]: Undefined index:  id ~ MODPATH/orm/classes/kohana/orm.php [ 1324 ]
+2011-02-12 23:27:17 --- ERROR: ErrorException [ 8 ]: Undefined index:  id ~ MODPATH/orm/classes/kohana/orm.php [ 1324 ]
+2011-02-12 23:28:05 --- ERROR: ErrorException [ 8 ]: Undefined index:  id ~ MODPATH/orm/classes/kohana/orm.php [ 1324 ]
+2011-02-12 23:29:18 --- ERROR: Database_Exception [ 1048 ]: Column 'movement_id' cannot be null [ INSERT INTO `transfers` (`movement_id`, `equity_id`, `amount`) VALUES (NULL, '1', -1100) ] ~ MODPATH/database/classes/kohana/database/mysql.php [ 179 ]

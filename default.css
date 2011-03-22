@@ -1,0 +1,60 @@
+/* TEMPLATE */
+
+* { padding: 0; margin: 0;}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+ul {
+	list-style-type: none;
+}
+table, th,td {
+	border: 1px solid black;
+}
+td {
+	padding: 0 3px;
+}
+#content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* MOVEMENTS ADD */
+
+#origins {
+	float: left;
+	width: 480px;
+}
+#destinations {
+	float: left;
+	width: 480px;
+}
+.deletex {
+	color: DarkRed;
+	cursor: pointer;
+}
+#origins ul li, #destinations ul, li {
+	padding: 5px 0;
+}
+#origins ul li label span,#destinations ul li label span {
+	padding: 5px !important;
+}
+#origins ul li select,#destinations ul li select {
+	width: 250px;
+}
+#origins ul li input,#destinations ul li input {
+	width: 75px;
+}
+#options {
+	display: none;
+}
+
+.tblheader {
+	
+}
+.toplevel {
+	cursor: pointer;
+}
+.subgroup {
+	display: none;
+}
